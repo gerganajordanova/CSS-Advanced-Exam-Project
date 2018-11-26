@@ -8,6 +8,16 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+button {
+  background: $background-color;
+  color: $main-text-color;
+  border: none;
+}
+
+button:hover {
+  border: 2px solid $third-color;
+}
+
 .diffColor {
   color: $third-color;
 }
@@ -101,7 +111,7 @@ body {
   height: 200px;
   border: 2px solid $main-text-color;
   border-radius: 5px;
-  box-shadow: -1px 0px 75px -22px rgba(245, 245, 245, 1);
+  box-shadow: $shadow;
 }
 
 .services img:hover {
@@ -114,7 +124,19 @@ body {
 }
 
 footer {
-  border-top: 1px solid $main-text-color;
+  border-top: 1px solid rgba(37, 37, 37, 0.94);
+}
+
+#about-img {
+  margin-left: 20%;
+  margin-top: 1em;
+  border-radius:15%;
+  width: 510px;
+  height: 468px;
+}
+#about-img img{
+  border-radius:15px;
+  box-shadow: $shadow;
 }
 
 @import "mobile";
