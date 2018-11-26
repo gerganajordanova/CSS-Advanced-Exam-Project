@@ -1,19 +1,24 @@
 @import "config";
-nav ul{
+
+nav ul {
   display: flex;
   flex-direction: row;
 }
-.nav-li{
-  margin:1em auto;
+
+.nav-li {
+  margin: 1em auto;
   list-style: none;
 }
- nav a{
-   text-decoration: none;
-   color: $main-text-color;
- }
- nav a:hover{
-   color: $secondary-color;
- }
- .nav-li:hover{
-   border-bottom: 2px solid $main-text-color;
- }
+
+nav a {
+  text-decoration: none;
+  color: $main-text-color;
+}
+
+nav a:hover {
+  color: $secondary-color;
+}
+
+.nav-li:hover {
+  border-bottom: 2px solid $main-text-color;
+}

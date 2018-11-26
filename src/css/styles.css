@@ -22,8 +22,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
-.title span {
-  color: rgba(36, 201, 192, 0.77); }
+.diffColor {
+  color: #cc1d2e; }
 
 .showcase::after {
   content: '';
@@ -87,10 +87,27 @@ body {
   color: rgba(36, 201, 192, 0.77); }
 
 .fa-youtube:before {
-  color: red; }
+  color: #cc1d2e; }
 
 .fa-chalkboard-teacher:before {
   color: cornflowerblue; }
 
 .fa-briefcase:before {
   color: grey; }
+
+.services img {
+  width: 290px;
+  height: 200px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  box-shadow: -1px 0px 75px -22px whitesmoke; }
+
+.services img:hover {
+  box-shadow: none; }
+
+.services h1 {
+  text-align: center;
+  border: 2px solid #fff; }
+
+footer {
+  border-top: 1px solid #fff; }
