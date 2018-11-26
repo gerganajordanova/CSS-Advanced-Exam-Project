@@ -2,9 +2,12 @@
 @import "navbar";
 body{
   background: $background-color;
-  color: #fff;
+  color: $main-text-color;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title span{
+  color: $secondary-color;
 }
 .showcase::after {
   content: '';
@@ -61,5 +64,28 @@ body{
   margin: auto;
   overflow: hidden;
   padding: 4rem 1rem;
+}
+.grid-3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.center {
+  text-align: center;
+}
+
+.services h3{
+  color: $secondary-color;
+}
+.fa-youtube:before {
+  color: red;
+}
+.fa-chalkboard-teacher:before {
+  color: cornflowerblue;
+}
+.fa-briefcase:before {
+  color: grey;
 }
 @import "mobile";

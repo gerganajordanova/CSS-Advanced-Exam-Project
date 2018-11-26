@@ -1,8 +1,29 @@
+nav ul {
+  display: flex;
+  flex-direction: row; }
+
+.nav-li {
+  margin: 1em auto;
+  list-style: none; }
+
+nav a {
+  text-decoration: none;
+  color: #fff; }
+
+nav a:hover {
+  color: rgba(36, 201, 192, 0.77); }
+
+.nav-li:hover {
+  border-bottom: 2px solid #fff; }
+
 body {
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.title span {
+  color: rgba(36, 201, 192, 0.77); }
 
 .showcase::after {
   content: '';
@@ -53,3 +74,23 @@ body {
   margin: auto;
   overflow: hidden;
   padding: 4rem 1rem; }
+
+.grid-3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr); }
+
+.center {
+  text-align: center; }
+
+.services h3 {
+  color: rgba(36, 201, 192, 0.77); }
+
+.fa-youtube:before {
+  color: red; }
+
+.fa-chalkboard-teacher:before {
+  color: cornflowerblue; }
+
+.fa-briefcase:before {
+  color: grey; }
