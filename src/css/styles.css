@@ -110,7 +110,7 @@ button:hover {
   height: 200px;
   border: 2px solid #fff;
   border-radius: 5px;
-  box-shadow: -1px 0 75px -22px whitesmoke; }
+  box-shadow: -1px 0px 75px -22px whitesmoke; }
 
 .services img:hover {
   box-shadow: none; }
@@ -174,7 +174,7 @@ footer {
 
 #about-img img {
   border-radius: 15px;
-  box-shadow: -1px 0 75px -22px whitesmoke; }
+  box-shadow: -1px 0px 75px -22px whitesmoke; }
 
 nav ul {
   display: flex;
@@ -319,6 +319,58 @@ nav a:hover {
   .container {
     max-width: 360px;
     padding: 0; }
+  .grid-3 {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr); }
+  .services p {
+    margin: 0; }
+  .fas, .fab, .fas {
+    margin-top: 10px; }
+  .services img {
+    width: 320px;
+    height: 240px; }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem; } }
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 17px; }
+  .services h3 {
+    margin: 0.5em; }
+  .showcase::after {
+    height: 60vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none; }
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none; }
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none; }
+  .content {
+    transition: none;
+    margin-top: 45px; }
+  .content .logo {
+    height: 120px;
+    width: 120px; }
+  .content .title {
+    font-size: 1.5rem; }
+  .about-info img {
+    display: none; }
+  #about-img {
+    margin-left: 15%;
+    width: 390px;
+    height: 280px; }
+  #about-img img {
+    width: 120%; }
+  .container {
+    max-width: 360px;
+    padding: 0;
+    margin-left: 140px; }
   .grid-3 {
     grid-gap: 5px;
     grid-template-columns: repeat(1, 1fr); }
