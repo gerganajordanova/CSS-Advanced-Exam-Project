@@ -1,5 +1,6 @@
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   border: 1px solid rgba(37, 37, 37, 0.94); }
 
@@ -164,9 +165,6 @@ main h1 {
 footer {
   border-top: 1px solid rgba(37, 37, 37, 0.94); }
 
-.third-color {
-  color: #cc1d2e; }
-
 #about-img {
   margin-left: 20%;
   margin-top: 1em;
@@ -177,3 +175,68 @@ footer {
 #about-img img {
   border-radius: 15px;
   box-shadow: -1px 0 75px -22px whitesmoke; }
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid rgba(37, 37, 37, 0.94); }
+
+.nav-li {
+  margin: 1em auto;
+  list-style: none; }
+
+nav a {
+  text-decoration: none;
+  color: #fff; }
+
+nav a:hover {
+  color: rgba(36, 201, 192, 0.77); }
+
+.nav-li:hover {
+  border-bottom: 2px solid #fff; }
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 11px; }
+  .showcase::after {
+    height: 40vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none; }
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none; }
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none; }
+  .content {
+    transition: none;
+    margin-top: 25px; }
+  .content .logo {
+    height: 120px;
+    width: 120px; }
+  .content .title {
+    font-size: 1.5rem; }
+  .content .text, #about-img, .about-info img, main h1 {
+    display: none; }
+  .container {
+    max-width: 360px;
+    padding: 0; }
+  .grid-3 {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr); }
+  .services p {
+    margin: 0; }
+  .fas, .fab, .fas {
+    margin-top: 10px; }
+  .showcase::after {
+    background-image: none; }
+  .services img {
+    width: 240px;
+    height: 200px; }
+  .boxes div {
+    font-size: 1rem;
+    border: 3px #fff solid;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 3rem; } }

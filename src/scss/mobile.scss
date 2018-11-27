@@ -1,0 +1,73 @@
+@import "config";
+@import "navbar";
+
+@media only screen and(max-width: 320px) {
+  body {
+    font-size: 11px;
+  }
+  .showcase::after {
+
+    height: 40vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none;
+  }
+
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .content {
+    transition: none;
+    margin-top: 25px;
+  }
+
+  .content .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+  }
+
+  .content .text, #about-img,.about-info img,main h1 {
+    display: none;
+  }
+
+  .container {
+    max-width: 360px;
+    padding: 0;
+  }
+
+  .grid-3 {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services p {
+    margin: 0;
+  }
+  .fas, .fab, .fas {
+    margin-top: 10px;
+  }
+  .showcase::after {
+    background-image: none;
+  }
+
+  .services img {
+    width: 240px;
+    height: 200px;
+  }
+  .boxes div {
+    font-size: 1rem;
+    border: 3px #fff solid;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 3rem;
+  }
+}
