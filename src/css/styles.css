@@ -118,8 +118,54 @@ button:hover {
   text-align: center;
   border: 2px solid #fff; }
 
+main h1 {
+  text-align: center; }
+
+.about img {
+  width: 325.9px;
+  height: 220px; }
+
+.about-info {
+  display: flex;
+  flex-wrap: wrap; }
+
+.about-info h3 {
+  text-align: center; }
+
+.about {
+  padding: 0.5rem;
+  border-bottom: rgba(36, 201, 192, 0.77) 5px solid; }
+
+.text-secondary {
+  color: rgba(36, 201, 192, 0.77); }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: rgba(0, 0, 0, 0.9); }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%; }
+
 footer {
   border-top: 1px solid rgba(37, 37, 37, 0.94); }
+
+.third-color {
+  color: #cc1d2e; }
 
 #about-img {
   margin-left: 20%;
