@@ -208,3 +208,41 @@ nav a:hover {
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem; } }
+
+@media only screen and (max-width: 960px) {
+  .showcase::after {
+    height: 60vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none; }
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none; }
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none; }
+  .content {
+    transition: none;
+    margin-top: 45px; }
+  .content .logo {
+    height: 180px;
+    width: 180px; }
+  .content .title {
+    font-size: 1.5rem; }
+  .container {
+    padding: 1.5rem 1rem; }
+  .grid-3 {
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr); }
+  #about-img {
+    margin-left: 15%;
+    width: 450px;
+    height: 320px; }
+  #about-img img {
+    width: 120%; }
+  .about img {
+    margin-left: 55px; }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 1.5rem 2.0rem;
+    margin-bottom: 3rem; } }
