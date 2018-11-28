@@ -241,7 +241,7 @@ nav a:hover {
     padding: 0.5rem 1.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 321px) and (max-device-width: 480px) {
   body {
     font-size: 15px; }
   .showcase::after {
@@ -284,7 +284,7 @@ nav a:hover {
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 640px) {
   body {
     font-size: 17px; }
   .services h3 {
@@ -335,7 +335,7 @@ nav a:hover {
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 641px) and (max-device-width: 768px) {
   body {
     font-size: 17px; }
   .services h3 {
@@ -387,7 +387,7 @@ nav a:hover {
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 960px) {
   .showcase::after {
     height: 60vh;
     filter: none;
