@@ -1,6 +1,5 @@
 nav ul {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   border: 1px solid rgba(37, 37, 37, 0.94); }
 
@@ -63,7 +62,7 @@ nav a:hover {
     padding: 0.5rem 1.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (min-device-width: 321px) and (max-device-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   body {
     font-size: 15px; }
   .showcase::after {
@@ -106,7 +105,7 @@ nav a:hover {
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 640px) {
+@media only screen and (min-width: 481px) and (max-width: 640px) {
   body {
     font-size: 17px; }
   .services h3 {
@@ -157,7 +156,7 @@ nav a:hover {
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (min-device-width: 641px) and (max-device-width: 768px) {
+@media only screen and (min-width: 641px) and (max-width: 768px) {
   body {
     font-size: 17px; }
   .services h3 {
@@ -209,7 +208,7 @@ nav a:hover {
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem; } }
 
-@media only screen and (min-device-width: 769px) and (max-device-width: 960px) {
+@media only screen and (min-width: 769px) and (max-width: 960px) {
   .showcase::after {
     height: 60vh;
     filter: none;
@@ -246,3 +245,64 @@ nav a:hover {
     font-size: 1.5rem;
     padding: 1.5rem 2.0rem;
     margin-bottom: 3rem; } }
+
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+  #about-img {
+    margin-left: 18%;
+    width: 490px;
+    height: 360px; }
+  #about-img img {
+    width: 120%; }
+  .about img {
+    margin-left: 10%; }
+  .showcase::after {
+    height: 70vh; }
+  .content .logo {
+    height: 180px;
+    width: 180px; }
+  .content .title {
+    font-size: 2.0rem; } }
+
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+  #about-img {
+    margin-left: 22%;
+    width: 490px;
+    height: 360px; }
+  #about-img img {
+    width: 130%; }
+  .showcase::after {
+    height: 80vh; }
+  .content .logo {
+    height: 210px;
+    width: 210px; }
+  .content .title {
+    font-size: 2.2rem; } }
+
+@media only screen and (max-width: 768px) {
+  nav.desk {
+    display: none; }
+  nav.mob,
+  .hamburger-btn {
+    display: block; }
+  .hamburger-btn {
+    position: relative; }
+  .hamburger-btn .fa-bars,
+  .hamburger-btn .fa-times {
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer; }
+  .mob ul {
+    margin-top: 60px;
+    background: #364a4b;
+    display: none; }
+  .mob li {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .mob ul.active {
+    display: block;
+    z-index: 3000; } }
