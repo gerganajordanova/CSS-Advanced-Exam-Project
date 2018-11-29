@@ -1,0 +1,401 @@
+@import "config";
+@import "navbar";
+
+@media only screen and(max-width: 320px) {
+  body {
+    font-size: 11px;
+  }
+  .showcase::after {
+
+    height: 40vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none;
+  }
+
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .content {
+    transition: none;
+    margin-top: 25px;
+  }
+
+  .content .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+  }
+
+  .content .text, #about-img, .about-info img, main h1 {
+    display: none;
+  }
+
+  .container {
+    max-width: 360px;
+    padding: 0;
+  }
+
+  .grid-3 {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services p {
+    margin: 0;
+  }
+  .fas, .fab, .fas {
+    margin-top: 10px;
+  }
+  .showcase::after {
+    background-image: none;
+  }
+
+  .services img {
+    width: 240px;
+    height: 200px;
+  }
+  .boxes div {
+    font-size: 1rem;
+    border: 3px #fff solid;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and(min-width: 321px) and (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+  .showcase::after {
+
+    height: 40vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none;
+  }
+
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .content {
+    transition: none;
+    margin-top: 25px;
+  }
+
+  .content .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+  }
+
+  .content .text, #about-img, .about-info img, main h1 {
+    display: none;
+  }
+
+  .container {
+    max-width: 360px;
+    padding: 0;
+  }
+
+  .grid-3 {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services p {
+    margin: 0;
+  }
+  .fas, .fab, .fas {
+    margin-top: 10px;
+  }
+  .services img {
+    width: 240px;
+    height: 200px;
+  }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and(min-width: 481px) and (max-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+  .services h3 {
+    margin: 0.5em;
+  }
+  .showcase::after {
+
+    height: 40vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none;
+  }
+
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .content {
+    transition: none;
+    margin-top: 45px;
+  }
+
+  .content .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+  }
+
+  .content .text, .about-info img {
+    display: none;
+  }
+  #about-img {
+    margin-left: 8%;
+    width: 320px;
+    height: 240px;
+  }
+  #about-img img {
+    width: 120%;
+  }
+
+  .container {
+    max-width: 360px;
+    padding: 0;
+  }
+
+  .grid-3 {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services p {
+    margin: 0;
+  }
+  .fas, .fab, .fas {
+    margin-top: 10px;
+  }
+  .services img {
+    width: 320px;
+    height: 240px;
+  }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+
+@media only screen and(min-width: 641px) and (max-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+  .services h3 {
+    margin: 0.5em;
+  }
+  .showcase::after {
+
+    height: 60vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none;
+  }
+
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .content {
+    transition: none;
+    margin-top: 45px;
+  }
+
+  .content .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+  }
+
+  .about-info img {
+    display: none;
+  }
+  #about-img {
+    margin-left: 15%;
+    width: 390px;
+    height: 280px;
+  }
+  #about-img img {
+    width: 120%;
+  }
+
+  .container {
+    max-width: 360px;
+    padding: 0;
+    margin-left: 140px;
+  }
+
+  .grid-3 {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services p {
+    margin: 0;
+  }
+  .fas, .fab, .fas {
+    margin-top: 10px;
+  }
+  .services img {
+    width: 320px;
+    height: 240px;
+  }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and(min-width: 769px) and (max-width: 960px) {
+  .showcase::after {
+
+    height: 60vh;
+    filter: none;
+    -webkit-filter: none;
+    transition: none;
+  }
+
+  .showcase:hover::after {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .showcase:hover .content {
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  .content {
+    transition: none;
+    margin-top: 45px;
+  }
+
+  .content .logo {
+    height: 180px;
+    width: 180px;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 1.5rem 1rem;
+  }
+  .grid-3 {
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #about-img {
+    margin-left: 15%;
+    width: 450px;
+    height: 320px;
+  }
+  #about-img img {
+    width: 120%;
+  }
+  .about img {
+    margin-left: 55px;
+  }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 1.5rem 2.0rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and(min-width: 961px) and (max-width: 1024px) {
+  #about-img {
+    margin-left: 18%;
+    width: 490px;
+    height: 360px;
+  }
+  #about-img img {
+    width: 120%;
+  }
+  .about img {
+    margin-left: 10%;
+  }
+  .showcase::after {
+    height: 70vh;
+  }
+  .content .logo {
+    height: 180px;
+    width: 180px;
+  }
+  .content .title {
+    font-size: 2.0rem;
+  }
+}
+
+@media only screen and(min-width: 1025px) and (max-width: 1600px) {
+  #about-img {
+    margin-left: 22%;
+    width: 490px;
+    height: 360px;
+  }
+  #about-img img {
+    width: 130%;
+  }
+  .showcase::after {
+    height: 80vh;
+  }
+  .content .logo {
+    height: 210px;
+    width: 210px;
+  }
+  .content .title {
+    font-size: 2.2rem;
+  }
+}
+

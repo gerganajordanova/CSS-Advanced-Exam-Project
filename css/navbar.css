@@ -1,0 +1,18 @@
+nav ul {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(37, 37, 37, 0.94); }
+
+.nav-li {
+  margin: 1em auto;
+  list-style: none; }
+
+nav a {
+  text-decoration: none;
+  color: #fff; }
+
+nav a:hover {
+  color: rgba(36, 201, 192, 0.77); }
+
+.nav-li:hover {
+  border-bottom: 2px solid #fff; }
